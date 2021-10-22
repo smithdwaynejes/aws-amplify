@@ -19,6 +19,10 @@
           "prod": "prod",
           "deploymentBucketName": "amplify-books-dev-195318-deployment",
           "s3Key": "amplify-builds/salesforceExpress-75344c63757137577578-build.zip"
+        },
+        "S3Triggerde5abd8c": {
+          "deploymentBucketName": "amplify-books-dev-195318-deployment",
+          "s3Key": "amplify-builds/S3Triggerde5abd8c-464650345a36466b454e-build.zip"
         }
       },
       "auth": {
