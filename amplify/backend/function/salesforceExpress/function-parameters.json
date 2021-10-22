@@ -1,0 +1,17 @@
+{
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "dev",
+      "environmentVariableName": "dev"
+    },
+    {
+      "cloudFormationParameterName": "uat",
+      "environmentVariableName": "uat"
+    },
+    {
+      "cloudFormationParameterName": "prod",
+      "environmentVariableName": "prod"
+    }
+  ]
+}

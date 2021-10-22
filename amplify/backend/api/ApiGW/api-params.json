@@ -1,0 +1,45 @@
+{
+  "paths": [
+    {
+      "name": "/salesforce",
+      "lambdaFunction": "salesforceExpress",
+      "privacy": {
+        "protected": true,
+        "auth": [
+          "/POST",
+          "/GET",
+          "/PUT",
+          "/PATCH",
+          "/DELETE"
+        ],
+        "unauth": [
+          "/GET"
+        ]
+      },
+      "policyResourceName": "/salesforce"
+    }
+  ],
+  "resourceName": "ApiGW",
+  "apiName": "ApiGW",
+  "functionArns": [
+    {
+      "lambdaFunction": "salesforceExpress"
+    }
+  ],
+  "privacy": {
+    "auth": 1,
+    "unauth": 1,
+    "authRoleName": "amplify-books-dev-195318-authRole",
+    "unAuthRoleName": "amplify-books-dev-195318-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "salesforceExpress",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-books-dev-195318-authRole",
+      "UnauthRoleArn": "arn:aws:iam::598348786070:role/amplify-books-dev-195318-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::598348786070:role/amplify-books-dev-195318-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-books-dev-195318-deployment",
+      "UnauthRoleName": "amplify-books-dev-195318-unauthRole",
+      "StackName": "amplify-books-dev-195318",
+      "StackId": "arn:aws:cloudformation:eu-west-1:598348786070:stack/amplify-books-dev-195318/73d41300-327a-11ec-a33c-0a1f3dd271ad",
+      "AmplifyAppId": "d354hywowf4y97"
+    },
+    "categories": {
+      "function": {
+        "salesforceExpress": {
+          "dev": "dev",
+          "uat": "uat",
+          "prod": "prod",
+          "deploymentBucketName": "amplify-books-dev-195318-deployment",
+          "s3Key": "amplify-builds/salesforceExpress-75344c63757137577578-build.zip"
+        }
+      },
+      "auth": {
+        "cognito0608bc90": {}
+      }
+    }
+  }
+}
